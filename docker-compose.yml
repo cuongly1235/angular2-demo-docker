@@ -1,0 +1,7 @@
+node:
+  image: cuongly/node-web-app:1.0
+  volumes:
+    - /var/www/angular2-demo-docker:/var/www/angular2-demo-docker
+  ports:
+      - 8080:8080
+
