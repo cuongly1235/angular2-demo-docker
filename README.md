@@ -5,6 +5,7 @@
     
 ## Install the npm packages
     $ npm install
+    $ npm run typings install
 
 ## Build Image
     $ docker build -t <name>/node-web-app:1.0 .docker/node/
