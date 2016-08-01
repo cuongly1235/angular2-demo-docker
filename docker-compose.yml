@@ -4,4 +4,4 @@ node:
     - /var/www/angular2-demo-docker:/var/www/angular2-demo-docker
   ports:
       - 8080:8080
-
+  restart: always

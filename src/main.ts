@@ -1,6 +1,6 @@
 import { bootstrap } from '@angular/platform-browser-dynamic';
 import { enableProdMode } from '@angular/core';
-import { AppComponent } from './app/components/hello/hello.component';
+import { AppComponent } from './app/components/app/app.component';
 
 
 if (process.env.ENV === 'production') {
